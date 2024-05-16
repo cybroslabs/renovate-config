@@ -9,5 +9,6 @@
   "prCreation": "not-pending",
   "labels": [
     "dependencies"
-  ]
+  ],
+  "recreateWhen": "always"
 }
