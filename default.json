@@ -10,13 +10,5 @@
   "labels": [
     "dependencies"
   ],
-  "recreateWhen": "always",
-  "hostRules": [
-    {
-      "hostType": "docker",
-      "domainName": "registry.clbs.io",
-      "username": "{{ secrets.HELM_USERNAME }}",
-      "password": "{{ secrets.HELM_PASSWORD }}"
-    }
-  ]
+  "recreateWhen": "always"
 }
