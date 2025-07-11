@@ -10,5 +10,16 @@
   "labels": [
     "dependencies"
   ],
-  "recreateWhen": "always"
+  "recreateWhen": "always",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "codacy/git-version"
+      ],
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "allowedVersions": "<2.8.3 || >2.8.3"
+    }
+  ]
 }
