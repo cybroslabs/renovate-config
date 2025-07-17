@@ -20,6 +20,15 @@
         "github-tags"
       ],
       "allowedVersions": "<2.8.3 || >2.8.3"
+    },
+    {
+      "matchPackageNames": [
+        "google.golang.org/grpc"
+      ],
+      "matchDatasources": [
+        "go"
+      ],
+      "allowedVersions": "<v1.74.0 || >v1.74.0"
     }
   ]
 }
